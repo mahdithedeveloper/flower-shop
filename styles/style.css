@@ -1,0 +1,304 @@
+header{
+   
+    padding-top: 10px;
+    display: flex;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+}
+.header-left{
+     font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 150px;
+    padding-left: 230px;
+    padding-top: 100px;
+    display: flex;
+    width: 650px;
+    display: block;
+
+}
+.header-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    
+    font-weight: 800;
+    
+    
+    
+}
+.header-description{
+    color: #27272799;
+    font-family: Lato;
+    font-size: 20px;
+    padding-bottom:20px ;
+    font-weight: 400;
+    line-height: 30px;
+}
+.header-img{
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.btn-primary{
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    
+    font-weight: 700;
+    
+
+}
+.featured{
+    text-align: center;
+    display: block;
+    
+}
+.featured-title{
+    text-align: center;
+    color: #272727;
+    margin-top: 170px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+  
+}
+.featured-description{
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 590px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.featured-flowers{
+    display: flex;
+    justify-content: center;
+   gap: 24px;
+
+}
+.featured-flower-1{
+    width: 450px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background:#A7216226 ;
+}
+.featured-flower-2{
+    width: 450px;
+    border-radius: 300px 300px 0px 0px;
+    height: 500px;
+    background: #0597A026;
+}
+.featured-flower-3{
+    width: 450px;
+    border-radius: 300px 300px 0px 0px;
+    height: 500px;
+    background: #477D1126;
+}
+.featured-flower-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    
+    text-decoration-line: underline;
+}
+.our-services{
+    display: flex;
+    margin-top: 200px;
+    gap: 100px;
+    margin-left: 240px;
+    width: 1400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #2727270D;
+    justify-content: center;
+}
+.service{
+    padding-top: 90px;
+   
+}
+.service-details{
+    color:#272727CC;
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.deal{
+    margin-top: 128px;
+    
+    display: flex;
+    width: 100%;  
+    height: 600px;
+    background-color: #E554730D;
+}
+.hot-deal{ 
+    padding: 155px 0 0 400px;
+    text-align: center;
+}
+.hot-deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+#off{
+    color: #E55473;
+}
+.hot-deal-image{
+    padding-left: 180px;
+    padding-top: 100px;
+    width: 300px;
+    height: 400px;
+}
+.hot-deal-description{
+    display: flex;
+    width: 550px;
+    color:#272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.insta-images{
+    margin-bottom: 150px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.insta-flower-img{
+    width: 340px;
+    height: 390px;
+    border-radius: 8px;
+}
+.get-latest-deals{
+    margin-bottom: 100px;
+    display:block;
+    padding-top: 130px;
+    margin-left: 225px;
+    width: 1433px;
+    height: 449px;
+    background-image:url(../Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#input-email{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    padding: 25px 0 20px 0;
+    border: 0;
+    margin-right:15px ;
+    padding-left: 22px;
+    font-size: 18px;
+   
+}
+.get-deal-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+   
+    font-weight: 800;
+   
+}
+.get-deal-description{
+    color:#272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.email-subscribe{
+    
+    display: flex;
+    justify-content: center;
+}
+.plants{
+    margin-bottom: 200px;
+    height: 600px;
+    width: 1340px;
+    border-radius: 20px;
+    border: 10px solid rgb(255, 217, 217);
+    background-color: #FFF;
+    background-position:right;
+    background-image: url(../Asset/plant.png);
+    background-repeat:no-repeat;
+    margin-left: 228px;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.plant-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    
+    font-weight: 800;
+    
+}
+
+.plant-description{
+    color: #27272799;
+    font-family: Lato;
+    font-size: 20px;
+    padding-bottom:20px ;
+    font-weight: 400;
+    line-height: 30px;
+    width: 700px;
+}
+footer{
+    padding-top: 100px;
+    width: 100%;
+    background-color: #111010;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+   
+}
+.footer-title{
+    color: #fff;
+    font-family: Lato;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 800;
+
+}
+#flower{
+    color: #E55473;
+}
+.footer-description{
+    color:#ffefef;
+    margin-bottom: 70px;
+    width: 600px;
+    font-family: Lato;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;   
+    text-align: center;
+    
+}
+.footer-bottom{
+    color:#FFFFFF66;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 0;
+    
+}
